@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		175043092A3B763700E945F7 /* ZohoContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175043082A3B763700E945F7 /* ZohoContact.swift */; };
+		1771C0A22A3357CF00F47767 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1771C0A12A3357CE00F47767 /* Contact.swift */; };
+		1771C0A42A335BB200F47767 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1771C0A32A335BB200F47767 /* ContactList.swift */; };
+		1771C0A62A335DFD00F47767 /* EnumCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1771C0A52A335DFD00F47767 /* EnumCases.swift */; };
+		179D7ED42A2E015C0060D340 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179D7ED32A2E015C0060D340 /* main.swift */; };
+		17B3AE3E2A33602B0039E262 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B3AE3D2A33602B0039E262 /* DataStorage.swift */; };
+		17B3AE422A339D100039E262 /* UserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B3AE412A339D100039E262 /* UserInput.swift */; };
+		17B3AE442A339D1C0039E262 /* DisplayMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B3AE432A339D1C0039E262 /* DisplayMenu.swift */; };
+		17B3AE462A33A2E00039E262 /* InputValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B3AE452A33A2E00039E262 /* InputValidation.swift */; };
+		17B3AE482A3478430039E262 /* ContactListOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B3AE472A3478430039E262 /* ContactListOperations.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		179D7ECE2A2E015C0060D340 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		175043082A3B763700E945F7 /* ZohoContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZohoContact.swift; sourceTree = "<group>"; };
+		1771C0A12A3357CE00F47767 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		1771C0A32A335BB200F47767 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		1771C0A52A335DFD00F47767 /* EnumCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumCases.swift; sourceTree = "<group>"; };
+		179D7ED02A2E015C0060D340 /* ContactListConsoleApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ContactListConsoleApp; sourceTree = BUILT_PRODUCTS_DIR; };
+		179D7ED32A2E015C0060D340 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		17B3AE3D2A33602B0039E262 /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
+		17B3AE412A339D100039E262 /* UserInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInput.swift; sourceTree = "<group>"; };
+		17B3AE432A339D1C0039E262 /* DisplayMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMenu.swift; sourceTree = "<group>"; };
+		17B3AE452A33A2E00039E262 /* InputValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputValidation.swift; sourceTree = "<group>"; };
+		17B3AE472A3478430039E262 /* ContactListOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListOperations.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		179D7ECD2A2E015C0060D340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		179D7EC72A2E015C0060D340 = {
+			isa = PBXGroup;
+			children = (
+				179D7ED22A2E015C0060D340 /* ContactListConsoleApp */,
+				179D7ED12A2E015C0060D340 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		179D7ED12A2E015C0060D340 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				179D7ED02A2E015C0060D340 /* ContactListConsoleApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		179D7ED22A2E015C0060D340 /* ContactListConsoleApp */ = {
+			isa = PBXGroup;
+			children = (
+				179D7EDC2A2E01830060D340 /* Controller */,
+				179D7EDB2A2E017B0060D340 /* View */,
+				179D7EDA2A2E01710060D340 /* Model */,
+				179D7ED32A2E015C0060D340 /* main.swift */,
+				17B3AE3D2A33602B0039E262 /* DataStorage.swift */,
+			);
+			path = ContactListConsoleApp;
+			sourceTree = "<group>";
+		};
+		179D7EDA2A2E01710060D340 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1771C0A12A3357CE00F47767 /* Contact.swift */,
+				17B3AE472A3478430039E262 /* ContactListOperations.swift */,
+				175043082A3B763700E945F7 /* ZohoContact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		179D7EDB2A2E017B0060D340 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17B3AE412A339D100039E262 /* UserInput.swift */,
+				17B3AE432A339D1C0039E262 /* DisplayMenu.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		179D7EDC2A2E01830060D340 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1771C0A32A335BB200F47767 /* ContactList.swift */,
+				1771C0A52A335DFD00F47767 /* EnumCases.swift */,
+				17B3AE452A33A2E00039E262 /* InputValidation.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		179D7ECF2A2E015C0060D340 /* ContactListConsoleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179D7ED72A2E015C0060D340 /* Build configuration list for PBXNativeTarget "ContactListConsoleApp" */;
+			buildPhases = (
+				179D7ECC2A2E015C0060D340 /* Sources */,
+				179D7ECD2A2E015C0060D340 /* Frameworks */,
+				179D7ECE2A2E015C0060D340 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContactListConsoleApp;
+			productName = ContactListConsoleApp;
+			productReference = 179D7ED02A2E015C0060D340 /* ContactListConsoleApp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		179D7EC82A2E015C0060D340 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					179D7ECF2A2E015C0060D340 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 179D7ECB2A2E015C0060D340 /* Build configuration list for PBXProject "ContactListConsoleApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 179D7EC72A2E015C0060D340;
+			productRefGroup = 179D7ED12A2E015C0060D340 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				179D7ECF2A2E015C0060D340 /* ContactListConsoleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		179D7ECC2A2E015C0060D340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1771C0A42A335BB200F47767 /* ContactList.swift in Sources */,
+				17B3AE422A339D100039E262 /* UserInput.swift in Sources */,
+				1771C0A22A3357CF00F47767 /* Contact.swift in Sources */,
+				17B3AE462A33A2E00039E262 /* InputValidation.swift in Sources */,
+				17B3AE3E2A33602B0039E262 /* DataStorage.swift in Sources */,
+				1771C0A62A335DFD00F47767 /* EnumCases.swift in Sources */,
+				17B3AE442A339D1C0039E262 /* DisplayMenu.swift in Sources */,
+				179D7ED42A2E015C0060D340 /* main.swift in Sources */,
+				175043092A3B763700E945F7 /* ZohoContact.swift in Sources */,
+				17B3AE482A3478430039E262 /* ContactListOperations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		179D7ED52A2E015C0060D340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		179D7ED62A2E015C0060D340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		179D7ED82A2E015C0060D340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		179D7ED92A2E015C0060D340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		179D7ECB2A2E015C0060D340 /* Build configuration list for PBXProject "ContactListConsoleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179D7ED52A2E015C0060D340 /* Debug */,
+				179D7ED62A2E015C0060D340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179D7ED72A2E015C0060D340 /* Build configuration list for PBXNativeTarget "ContactListConsoleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179D7ED82A2E015C0060D340 /* Debug */,
+				179D7ED92A2E015C0060D340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 179D7EC82A2E015C0060D340 /* Project object */;
+}
